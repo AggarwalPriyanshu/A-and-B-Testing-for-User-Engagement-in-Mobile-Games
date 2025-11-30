@@ -62,7 +62,7 @@ Streamlit app coming soon to visualize and interact with the dataset and statist
 
 ## 🙋‍♂️ Author
 
-**Sanat Walia** – BTech CSE Student, Passionate about data science, gaming analytics, and deploying data-driven solutions.
+**Priyanshu Aggarwal** – BTech ECE Student, Passionate about data science, gaming analytics, and deploying data-driven solutions.
 
 ## 🌐 Live Demo
 
