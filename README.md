@@ -62,14 +62,17 @@ A synthetic dataset was generated to emulate realistic mobile game user behavior
 
 This project applies multiple statistical hypothesis tests to validate experimental results and ensure reliable, data-driven conclusions.
 
-### 🔹 Independent Two-Sample T-Test (Session Duration)
+
+---
+
+#### 🔹 Independent Two-Sample T-Test (Session Duration)
 
 -Used to compare the mean session duration between the control and test groups.
 
-# Null Hypothesis (H₀):
+#### Null Hypothesis (H₀):
 Mean session duration is equal for both groups.
 
-# Alternative Hypothesis (H₁):
+#### Alternative Hypothesis (H₁):
 Mean session duration differs between the groups.
 
 ## Test Statistic:
@@ -86,6 +89,9 @@ Where:
 -n₁ , n₂ = sample sizes
 
 A statistically significant p-value (< 0.05) indicates a meaningful difference in session duration.
+
+
+---
 
 🔹 Chi-Square Test of Independence (User Retention)
 
