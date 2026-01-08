@@ -57,32 +57,33 @@ A synthetic dataset was generated to emulate realistic mobile game user behavior
 - **Mann–Whitney U Test** – Non-parametric spending comparison  
 
 ---
-📐 Statistical Equations & Methodology
+
+### 📐 Statistical Equations & Methodology
 
 This project applies multiple statistical hypothesis tests to validate experimental results and ensure reliable, data-driven conclusions.
 
-🔹 Independent Two-Sample T-Test (Session Duration)
+### 🔹 Independent Two-Sample T-Test (Session Duration)
 
-Used to compare the mean session duration between the control and test groups.
+-Used to compare the mean session duration between the control and test groups.
 
-Null Hypothesis (H₀):
+# Null Hypothesis (H₀):
 Mean session duration is equal for both groups.
 
-Alternative Hypothesis (H₁):
+# Alternative Hypothesis (H₁):
 Mean session duration differs between the groups.
 
-Test Statistic:
+## Test Statistic:
 
 t = (X̄₁ − X̄₂) / √( (s₁² / n₁) + (s₂² / n₂) )
 
 
 Where:
 
-X̄₁ , X̄₂ = sample means
+-X̄₁ , X̄₂ = sample means
 
-s₁² , s₂² = sample variances
+-s₁² , s₂² = sample variances
 
-n₁ , n₂ = sample sizes
+-n₁ , n₂ = sample sizes
 
 A statistically significant p-value (< 0.05) indicates a meaningful difference in session duration.
 
