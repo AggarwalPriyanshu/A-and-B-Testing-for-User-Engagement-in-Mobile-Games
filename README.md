@@ -1,69 +1,134 @@
-# Data_Driven_Decisions
+# 🎮 A/B Testing for User Engagement Analysis in Mobile Games
 
-# A/B Testing for User Engagement Analysis in Mobile Games
+![Domain](https://img.shields.io/badge/Domain-Data%20Science%20%7C%20Analytics-blue)
+![Tech](https://img.shields.io/badge/Tools-Python%20%7C%20Pandas%20%7C%20SciPy-orange)
+![Stats](https://img.shields.io/badge/Methods-A%2FB%20Testing%20%7C%20Hypothesis%20Testing-success)
+![Visualization](https://img.shields.io/badge/Visualization-Matplotlib%20%7C%20Seaborn-purple)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 
-## 📌 Overview
+---
 
-This project analyzes a synthetic A/B testing dataset designed to evaluate the impact of a new game feature on user engagement metrics like session duration, retention, and in-app purchases. The experiment simulates real-world gameplay behavior and compares a control group with a test group.
+## 📌 Project Overview
+
+This project focuses on **data-driven decision making** through **A/B Testing** in the context of mobile gaming analytics.  
+A synthetic experiment dataset was designed to evaluate the impact of a newly introduced game feature on **user engagement and monetization metrics**.
+
+The analysis simulates real-world gameplay behavior by comparing a **control group** against a **test group**, measuring changes in session duration, user retention, and in-app purchases using **statistical hypothesis testing**.
+
+---
 
 ## 🎯 Objective
 
-To apply core data science and hypothesis testing principles in a gaming context by:
+To apply core **data science, statistics, and experimentation principles** by:
 
-- Analyzing group-wise performance
-- Visualizing user behavior
-- Performing rigorous statistical testing
-- Drawing actionable insights
+- Evaluating group-wise user engagement performance
+- Visualizing behavioral patterns across cohorts
+- Performing rigorous statistical hypothesis tests
+- Deriving actionable product insights from data
 
-## 📊 Dataset
+---
 
-A synthetic dataset was generated with the following features:
+## 🧪 Experimental Design & Dataset
 
-- `user_id`: Unique identifier
-- `group`: Either "control" or "test"
-- `session_duration`: Average play session length in minutes
-- `retention`: Binary indicator (1 if the user returned, 0 otherwise)
-- `in_app_purchases`: Amount spent in-game (in USD)
+A synthetic dataset was generated to emulate realistic mobile game user behavior with the following attributes:
 
-## 🔍 Key Analysis
+- `user_id` – Unique player identifier  
+- `group` – Experiment group (`control` / `test`)  
+- `session_duration` – Average gameplay session duration (minutes)  
+- `retention` – Binary indicator (1 = returned user, 0 = churned)  
+- `in_app_purchases` – Total in-game spending (USD)  
 
-- **Descriptive statistics** to summarize user behavior.
-- **Boxplots** and **bar charts** for visual comparison.
-- **T-test**, **Chi-square test**, and **Mann-Whitney U test** to test hypotheses.
+---
+
+## 📊 Statistical Analysis Pipeline
+
+### 🔍 Descriptive & Exploratory Analysis
+- Summary statistics to compare central tendencies and dispersion
+- Distribution analysis of session duration and spending behavior
+
+### 📈 Data Visualization
+- **Boxplots** for session duration comparison
+- **Bar charts** for retention and purchase rate analysis
+- Visual validation of experiment assumptions
+
+### 🧠 Hypothesis Testing
+- **Independent T-Test** – Mean session duration comparison  
+- **Chi-Square Test** – Retention rate significance  
+- **Mann–Whitney U Test** – Non-parametric spending comparison  
+
+---
 
 ## 📈 Results Summary
 
-- **Session Duration**: Increased significantly in the test group.
-- **Retention**: Improved in the test group with statistical significance.
-- **In-App Purchases**: Test group showed higher average spending.
+- **Session Duration:** Statistically significant increase in the test group  
+- **Retention Rate:** Improved user retention with strong statistical confidence  
+- **In-App Purchases:** Higher average spending observed in the test group  
+
+---
 
 ## ✅ Conclusion
 
-The new feature led to notable improvements across all key metrics. The results support broader implementation with continued monitoring.
+The experimental results indicate that the newly introduced game feature **positively impacts user engagement and monetization**.  
+Findings support **broader feature rollout**, with recommendations for continued experimentation and long-term monitoring.
 
-## 🛠️ Tech Stack
+---
 
-- Python (Pandas, Matplotlib, Seaborn, Scipy)
-- Jupyter Notebook
-- Streamlit (for frontend)
+## 🛠️ Tools & Technologies
 
-## 🚀 Deployment
+- **Programming Language:** Python  
+- **Data Analysis:** Pandas, NumPy  
+- **Statistical Testing:** SciPy  
+- **Visualization:** Matplotlib, Seaborn  
+- **Environment:** Jupyter Notebook  
+- **Deployment (Planned):** Streamlit  
 
-Streamlit app coming soon to visualize and interact with the dataset and statistical results.
+---
 
-## 📂 File Structure
+## 🚀 Deployment Plan
+
+- Interactive dashboard using **Streamlit**
+- Live visualization of metrics and statistical outcomes
+- Deployment via **Streamlit Cloud** or **Render**
+
+---
+
+## 📂 Repository Structure
+
 
 ```
-├── ab_testing_game_analysis.py
-├── synthetic_ab_test_dataset.csv
-├── README.md
-├── streamlit_app.py (to be added)
+Data_Driven_Decisions/
+│
+├── ab_testing_game_analysis.py # Core analysis & statistical testing
+├── synthetic_ab_test_dataset.csv # Synthetic experiment dataset
+├── streamlit_app.py # Interactive dashboard (planned)
+└── README.md # Project documentation
+
 ```
 
-## 🙋‍♂️ Author
 
-**Priyanshu Aggarwal** – BTech ECE Student, Passionate about data science, gaming analytics, and deploying data-driven solutions.
+---
 
-## 🌐 Live Demo
+## 📚 Learning Outcomes
 
-🚧 _To be deployed using Streamlit Cloud or Render_ 🚧
+- Hands-on experience with **A/B Testing and experimental design**
+- Practical application of **statistical hypothesis testing**
+- Strong understanding of **user engagement analytics**
+- Data visualization for **decision-making insights**
+- End-to-end analytics workflow from data to product recommendation
+
+---
+
+## 👤 Author
+
+
+**Priyanshu Aggarwal**  
+Electronics & Communication Engineering  
+
+📧 Email: Priyanshuaggarwal.in@gmail.com  
+🔗 LinkedIn: https://linkedin.com/in/priyanshu1201  
+💻 GitHub: https://github.com/AggarwalPriyanshu  
+
+---
+
+⭐ If you find this repository useful, feel free to star it!
+
