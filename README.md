@@ -63,19 +63,17 @@ A synthetic dataset was generated to emulate realistic mobile game user behavior
 This project applies multiple statistical hypothesis tests to validate experimental results and ensure reliable, data-driven conclusions.
 
 
----
-
 #### 🔹 Independent Two-Sample T-Test (Session Duration)
 
 -Used to compare the mean session duration between the control and test groups.
 
-#### Null Hypothesis (H₀):
+##### Null Hypothesis (H₀):
 Mean session duration is equal for both groups.
 
-#### Alternative Hypothesis (H₁):
+##### Alternative Hypothesis (H₁):
 Mean session duration differs between the groups.
 
-## Test Statistic:
+##### Test Statistic:
 
 t = (X̄₁ − X̄₂) / √( (s₁² / n₁) + (s₂² / n₂) )
 
@@ -93,64 +91,68 @@ A statistically significant p-value (< 0.05) indicates a meaningful difference i
 
 ---
 
-🔹 Chi-Square Test of Independence (User Retention)
+#### 🔹 Chi-Square Test of Independence (User Retention)
 
 Used to determine whether user retention is dependent on group assignment.
 
-Null Hypothesis (H₀):
+##### Null Hypothesis (H₀):
 Retention is independent of group membership.
 
-Alternative Hypothesis (H₁):
+##### Alternative Hypothesis (H₁):
 Retention depends on whether the user is in the control or test group.
 
-Test Statistic:
+##### Test Statistic:
 
 χ² = Σ ( (O − E)² / E )
 
 
 Where:
 
-O = observed frequency
+-O = observed frequency
 
-E = expected frequency
+-E = expected frequency
 
 A significant chi-square value confirms an association between the feature and retention behavior.
 
-🔹 Mann–Whitney U Test (In-App Purchases)
+
+---
+
+#### 🔹 Mann–Whitney U Test (In-App Purchases)
 
 A non-parametric test used due to skewed spending distributions.
 
-Null Hypothesis (H₀):
+##### Null Hypothesis (H₀):
 Both groups originate from the same distribution.
 
-Alternative Hypothesis (H₁):
+##### Alternative Hypothesis (H₁):
 The spending distributions differ between groups.
 
-Test Statistic:
+##### Test Statistic:
 
 U = n₁n₂ + (n₁(n₁ + 1))/2 − R₁
 
 
 Where:
 
-n₁ = sample size of group 1
+-n₁ = sample size of group 1
 
-R₁ = rank sum of group 1
+-R₁ = rank sum of group 1
 
 This ensures robustness when normality assumptions are violated.
 
-🔹 Significance Level
+
+#### 🔹 Significance Level
 
 All statistical tests were evaluated at a 95% confidence level:
 
 α = 0.05
 
 
-p < α → Reject the null hypothesis
+-p < α → Reject the null hypothesis
 
-p ≥ α → Fail to reject the null hypothesis
+-p ≥ α → Fail to reject the null hypothesis
 
-🔹 Assumption Validation
+#### 🔹 Assumption Validation
 
 Before hypothesis testing:
 
