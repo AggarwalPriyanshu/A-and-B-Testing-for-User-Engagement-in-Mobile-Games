@@ -65,7 +65,7 @@ This project applies multiple statistical hypothesis tests to validate experimen
 
 #### 🔹 Independent Two-Sample T-Test (Session Duration)
 
--Used to compare the mean session duration between the control and test groups.
+- Used to compare the mean session duration between the control and test groups.
 
 ##### Null Hypothesis (H₀):
 Mean session duration is equal for both groups.
@@ -80,11 +80,11 @@ t = (X̄₁ − X̄₂) / √( (s₁² / n₁) + (s₂² / n₂) )
 
 Where:
 
--X̄₁ , X̄₂ = sample means
+- X̄₁ , X̄₂ = sample means
 
--s₁² , s₂² = sample variances
+- s₁² , s₂² = sample variances
 
--n₁ , n₂ = sample sizes
+- n₁ , n₂ = sample sizes
 
 A statistically significant p-value (< 0.05) indicates a meaningful difference in session duration.
 
@@ -108,9 +108,9 @@ Retention depends on whether the user is in the control or test group.
 
 Where:
 
--O = observed frequency
+- O = observed frequency
 
--E = expected frequency
+- E = expected frequency
 
 A significant chi-square value confirms an association between the feature and retention behavior.
 
@@ -134,9 +134,9 @@ U = n₁n₂ + (n₁(n₁ + 1))/2 − R₁
 
 Where:
 
--n₁ = sample size of group 1
+- n₁ = sample size of group 1
 
--R₁ = rank sum of group 1
+- R₁ = rank sum of group 1
 
 This ensures robustness when normality assumptions are violated.
 
@@ -148,29 +148,29 @@ All statistical tests were evaluated at a 95% confidence level:
 α = 0.05
 
 
--p < α → Reject the null hypothesis
+- p < α → Reject the null hypothesis
 
--p ≥ α → Fail to reject the null hypothesis
+- p ≥ α → Fail to reject the null hypothesis
 
 #### 🔹 Assumption Validation
 
 Before hypothesis testing:
 
--Distribution symmetry and outliers were inspected using boxplots
+- Distribution symmetry and outliers were inspected using boxplots
 
--Sample independence was ensured by experimental design
+- Sample independence was ensured by experimental design
 
--Non-parametric tests were applied when normality was not satisfied
+- Non-parametric tests were applied when normality was not satisfied
 
 ### 💡 Why This Matters
 
--Applying multiple hypothesis tests improves:
+- Applying multiple hypothesis tests improves:
 
--Statistical rigor
+- Statistical rigor
 
--Reliability of experimental conclusions
+- Reliability of experimental conclusions
 
--Real-world alignment with industry A/B testing practices
+- Real-world alignment with industry A/B testing practices
 
 
 ---
